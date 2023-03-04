@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+  
+}
+.section {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    
+}
+.form-control::-webkit-input-placeholder {
+    color: #bbb;
+    font-size: 15px;
+  }
+.container p{
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+    color: #17a2b8;
+}
+.form-control{
+    background: #24353f;
+    color: rgb(250, 247, 247);
+    font-size: 1rem;
+    height: 40px;
+
+}
+.form-control:focus {
+    box-shadow: none;
+    background-color:24353f ;
+    color: rgb(250, 247, 247);
+}
+input,
+input::placeholder {
+    font: 18px sans-serif;
+  
+}
+.btn-outline-info {
+    color: #17a2b8;
+    border: #17a2b8 solid 1px;
+
+}
+.btn-outline-info:hover {
+    color:white;
+    background-color:#17a2b8 ;
+
+
+}.sign-in{
+    text-decoration: none;
+}
+.sign-in:hover{
+text-decoration: underline ;
+}
+
+.navbar , .con-nav{
+    position: relative;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+   
+}
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
